@@ -1,0 +1,60 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Redressed, sans-serif;
+  font-weight: normal;
+}
+
+body{
+  padding: 100px;
+  margin: 0;
+  background: linear-gradient(to right, #215c97, #1b7466);
+}
+
+.overall-grid {
+  border-radius: 20px;
+  display: grid;
+  max-width: 50%;
+  width: 300px;
+  margin: auto;
+  justify-content: center;
+  align-content: center;
+  background-color: white;
+  padding-bottom: 25px;
+}
+
+.name {
+  margin: auto;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#title {
+  color: white;
+  background-color: black;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 10px 50px;
+}
+
+.body {
+  padding: 0px;
+}
+
+#amount, #service-quality, #number-of-people {
+  border-color: black;
+}
+
+#Calculate {
+  margin-top: 10px;
+  margin-left: 33%;
+  margin-right: 30% ;
+}
+
+.button {
+  top: 50%;
+  justify-content: center;
+  align-items: center;
+}

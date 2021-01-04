@@ -7,10 +7,50 @@
   <title>Calculate Tip!</title>
   <link href="styles.css" rel="stylesheet">
   <script src="script.js" defer></script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+  </style>
 </head>
 
-<body>
 
+
+<body>
+  <div class="overall-grid">
+
+    <div class="name">
+      <h2 id="title">Calculate Your Tip!</h2>
+    </div>
+
+    <div class="body">
+      <form>
+        <p>What is the total bill?</p>
+        <p></p>
+        <input id="amount" type="text" placeholder="Enter Amount">
+
+        <p>Rate the service</p>
+        <p></p>
+        <select id="service-quality">
+          <option disabled selected value="0">~Choose Quality~</option>
+          <option value="0.05">Poor Service (5%)</option>
+          <option value="0.1">Okay Service (10%)</option>
+          <option value="0.15">Pretty Good! (15%)</option>
+          <option value="0.2">Really Really Good (20%)</option>
+        </select>
+
+        <p>How many people are you sharing the bill with?</p>
+        <p></p>
+        <input id="number-of-people" type="text" placeholder="Enter number of people">
+      </form>
+
+      <p></p>
+      <div class="button">
+        <button id="Calculate">Calculate Tip</button>
+      </div>
+
+    </div id="final-tip">
+    <span id="tip">$ 0.00</span>
+  </div>
 </body>
 
 </html>
