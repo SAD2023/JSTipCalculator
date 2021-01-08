@@ -1,3 +1,7 @@
+/**Finds the bill amount, the number of people, and the quality of service from the user inputs,
+and checks whether the inputs are valid. If so, it calculates the tip amount based on the inputs
+and updates the HTML to reveal the tip amount.*/
+
 function findTip() {
   var bill = document.getElementById("amount").value;
   var number_of_people = document.getElementById("number-of-people").value;
